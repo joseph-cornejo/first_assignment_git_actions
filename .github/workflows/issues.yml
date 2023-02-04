@@ -2,7 +2,7 @@ name: Handle Issues
 on: issues
 jobs:
   label_issues: 
-    runs_on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps: 
       - name: Output Github context
         run: echo "${{ toJSON(github.event) }}"
