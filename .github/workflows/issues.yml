@@ -1,5 +1,5 @@
-name: issues
-on: 
+name: Handle Issues
+on: issues
 jobs:
   label_issues: 
     runs_on: ubuntu-latest
